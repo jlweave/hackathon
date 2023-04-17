@@ -5,14 +5,15 @@ class GiphyService
       s.params['rating'] = 'r'
       s.params['limit'] = 5
     end
-    if response.status == 200
+    # if response.status == 200
+    require 'pry';binding.pry
       parse_json(response)
-      
+
   end
 
 
   def self.conn
-    conn = Faraday.new('api.giphy.com/v1') do |f|
+    conn = Faraday.new('https://api.giphy.com/v1') do |f|
       f.params['api_key'] = ENV['sa_giphy_api_key']
       f.params['lang']    = 'en'
     end
