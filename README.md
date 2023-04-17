@@ -24,7 +24,7 @@ Check us out! <<add heroku link here>>
 <p align="center">
 <img height="50"src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white"> 
 <img height="50"src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white">
-<img height="50height="60"src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white">
+<img height="50"src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white">
 <img height="50"src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
 <img height="50"src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 <img height="50"src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white">
@@ -35,7 +35,7 @@ Check us out! <<add heroku link here>>
 ## API Endpoints
 - <a href= "https://shielded-headland-00998.herokuapp.com/api/v1/insults">Random Insult API</a> (created specifically for this project, <a href= "https://github.com/bflanagan138/insults">click here</a> to visit the GitHub Repo)
 - <a href= "https://unsplash.com/documentation#search-photos">Unsplash Picture API</a>
-- <a href= "https://www.wordsapi.com/docs/#random-words">Random Word API</a>
+- <a href= "https://random-word-api.herokuapp.com/word">Random Word API</a>
 - <a href= "https:://api.giphy.com/v1/gifs/search">Giphy API</a>
 
 ## Responsible Parties
