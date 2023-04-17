@@ -6,13 +6,10 @@ class GiphyFacade
     
     ratings = ['r','pg13','pg']
     
-    best_gifs = data.select do |d|
-      # require 'pry';binding.pry     
-      return d if ratings.include?(d.rating)
-    end
+    best_gifs = data.select { |d| return d if ratings.include?(d.rating) }
 
-    require 'pry';binding.pry
-    unless best_gifs.empty?
+    # require 'pry';binding.pry
+    if best_gifs.empty?
       return data.sample
     else
       return best_gifs

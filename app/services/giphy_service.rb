@@ -7,10 +7,7 @@ class GiphyService
       s.params['limit']   = 5
       s.params['lang']    = 'en'
     end
-    
-    # if response.status == 200
-    # require 'pry';binding.pry
-      parse_json(response)
+    parse_json(response)
 
   end
 
