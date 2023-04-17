@@ -1,4 +1,4 @@
-class Api::V1::GamesController < ApplicationController
+class GamesController < ApplicationController
 
   def index
 
