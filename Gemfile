@@ -44,8 +44,13 @@ group :development, :test do
   gem "pry"
   gem 'rspec-rails', '~> 4.0.1'
   gem "factory_bot_rails"
-  gem "faker"
+  gem 'faker'
   gem 'shoulda-matchers'
+  gem 'orderly'
+  gem 'pry-rails'
+  gem 'webmock'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 group :development do
