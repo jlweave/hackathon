@@ -1,6 +1,7 @@
-class API::V1::GamesController < ApplicationController
+class Api::V1::GamesController < ApplicationController
 
   def index
+    pic = PhotoFacade.get_image
   end
 
 end
