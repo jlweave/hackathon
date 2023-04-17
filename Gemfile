@@ -48,7 +48,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'orderly'
   gem 'pry-rails'
-  gem 'webmock'
+  # gem 'webmock'
   gem 'capybara'
   gem 'launchy'
 end
@@ -63,6 +63,9 @@ group :development do
   # gem "pry"
 end
 
+group :test do
+  gem "webmock"
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
