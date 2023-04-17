@@ -2,9 +2,8 @@ class GiphyFacade
   def self.insulting_gif(phrase)
     gifs = GiphyService.return_insulting_gif(phrase)
     
-    gifs.map do |g|
-      Giphy.new(g)
-    end
+    data = gifs[:data].map { |g| Giphy.new(g) }
+    
     
     require 'pry';binding.pry
   end
